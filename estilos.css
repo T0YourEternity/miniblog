@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --gold1: #f4bd76;
+    --gold2: #f6cd8f;
+    --gray: #ffffff80;
+    --gray2: #f7d9d990;
+    --black1: #1a1b1f;
+    --black2: #30353b;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 1;
+    align-items: center;
+    background-color: #272a33;
+}
+
+.navBar a{
+    padding: 35px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navBar a:hover{
+    background-color: #fff;
+    color: #1a1b1f;
+}
+
+.navBar img{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.home{
+    color: #fff;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home Img{
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 25%;
+}
+
+.aboutMe{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 21px;
+    background-color:  #272a33;
+    color: #fff;
+}
+
+.aboutMe h2{
+    text-decoration: underline;
+}
+
+.aboutMe p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.aboutMe img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.aboutMeContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMe img:hover{
+    background-color: aquamarine;
+}
+
+.projects{
+    text-decoration: underline;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.projects img{
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.footer-item {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: #1a1b1f;
+    background-color: #fff;
+}
